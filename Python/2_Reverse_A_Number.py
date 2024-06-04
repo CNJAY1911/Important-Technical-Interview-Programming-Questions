@@ -3,7 +3,7 @@ result = 0
 
 print(f"Number before reversed: {num}")
 
-# Logic for Reverse a Number
+# Logic for Reversing a Number
 while num > 0:
     digit = num % 10
     result = result * 10 + digit

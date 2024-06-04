@@ -1,11 +1,12 @@
+# Defining function to implement Logic for printing Fibonnaci Series
+
 def fibonacci_series(n):
     a = 0
     b = 1
-    print(a)
-    print(b)
+    print(a, b, end = " ")
     for i in range(2, n):
         c = a + b
-        print(c)
+        print(c, end = " ")
         a = b
         b = c
 
